@@ -80,4 +80,17 @@
             <impl>openj9</impl>
         </impls>
     </test>
+    <test>
+        <testCaseName>License_Copyright_Check</testCaseName>
+        <command>chmod a+x $(TEST_RESROOT)$(D)license_copyright_check.sh; $(TEST_RESROOT)$(D)license_copyright_check.sh; $(TEST_STATUS)</command>
+        <levels>
+            <level>extended</level>
+        </levels>
+        <groups>
+            <group>functional</group>
+        </groups>
+        <impls>
+            <impl>openj9</impl>
+        </impls>
+    </test>
 </playlist>

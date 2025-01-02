@@ -59,6 +59,7 @@
         <copy todir="${DEST}">
             <fileset dir="${src}/../" includes="*.xml"/>
             <fileset dir="${src}/../" includes="*.mk"/>
+            <fileset dir="${src}/../scripts" includes="*.sh"/>
         </copy>
     </target>
 
